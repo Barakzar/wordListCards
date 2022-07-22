@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: min(600px,100% - 1rem);
+    margin-inline: auto;
+    border: .1px solid #0009;
+    border-radius: 2rem;
+    text-align: center;
+    // min-height: 60vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 5em;
+    box-shadow: 1rem 1rem 3rem #000a;
+    min-height: 90vh;
+}
+button {
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    // outline: none;
+    border: none;
+}
+img {
+    overflow: hidden;
+    border-radius: 2rem 2rem 0 0;
+    box-shadow: 0 .5rem 2rem #0008;
+}
+.random-word {
+    margin-bottom: 16vh;
+}
+blockquote {
+    margin: 0 15px 0 15px;
+    background-image: url('https://webdesigndev.com/wp-content/uploads/2020/11/Cover-Image-1.jpg.webp');
+    padding: .8em 0.6em;
+    border-radius: .4em;
+    box-shadow: .5rem 1rem 2rem #0008;
+    font:bold 1.4rem/1.6 cursive;
+    .author {
+        color: #000b;
+        font: 100 1.2rem/1 comic;
+        text-align: right;
+    }
+}
+.word {
+    display: inline-block;
+    padding: 0.4em;
+    border-radius: .4rem;
+    min-width: 33vw;
+    border: 1px solid #0006;
+    font-size: 1.5rem;
+}

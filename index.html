@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/css/main.css">
-    <script src="./src/js/main.js" defer></script> <!--  Todo... -->
+    <script type="module" src="./src/js/main.js" defer></script> <!--  Todo... -->
     <!-- git fetch origin  git reset --hard origin/main  git clean -df -->
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+<img src="https://unsplash.it/600/400" alt="">    
+    <blockquote>
+        <div class="quote"></div>
+        <div class="author"></div>
+    </blockquote>
+   
+        <div class="toggle-known-un_known">
+            <button class="known-words toggle">😊 מילים ידועות</button>
+            <button class="un-known-words toggle">😥 מילים לא ידועות</button>
+        </div>
+        <div class="random-word">
+            <button class="left">&leftarrow;</button>
+            <label class="word" for="">bla</label>
+            <button class="right">&rightarrow;</button>
+        </div>
+    </div>
 </body>
 </html>
